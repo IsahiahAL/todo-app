@@ -1,0 +1,240 @@
+/* #5e8eb3 - hippie blue; #7d759e - kimberly; #8d9f89 - envy*/
+:root {
+    --hippie-blue: #5e8eb3;
+    --kimberly: #7d759e;
+}
+body {
+    margin: 0;
+    height: 100vh;
+    background: radial-gradient(circle, var(--kimberly) 30%, var(--hippie-blue) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 200;
+    margin-bottom: 2rem;
+}
+.container {
+    height: 40rem;
+    width: 40rem;
+    border: 1px solid rgba(247, 247, 247, 0.2);
+    border-radius: 3rem;
+    background-color: rgba(247, 247, 247, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease;
+}
+@media (max-width: 1280px ) {
+    .container {
+        height: 35rem;
+    }
+ 
+}
+@media (max-width: 1024px ) {
+    .container {
+        height: 50rem;
+        width: 35rem;
+        margin: 2rem 0 1rem 0;
+    }
+    h1 {
+        margin-bottom: 1rem;
+        font-size: 2.5rem;
+    }
+    button {
+        margin-bottom: 1rem;
+    }
+ 
+}
+@media (max-width: 855px ) {
+    
+   h1 {
+    margin-bottom: 4rem;
+    font-size: 4rem;
+   }
+}
+@media (max-width: 820px ) {
+    .container {
+        height: 40rem;
+        width: 30rem;
+        margin-bottom: 2rem;
+    }
+
+}
+@media (max-width: 768px ) {
+    
+    .container {
+        height: 40rem;
+        width: 30rem;
+        margin-bottom: 2rem;
+    }
+   h1 {
+    margin-bottom: 4rem;
+    font-size: 4rem;
+   }
+}
+@media (max-width: 750px ) {
+    
+    .container {
+        height: 35rem;
+        width: 30rem;
+    }
+}
+@media (max-width: 600px ) {
+    
+    .container {
+        height: 35rem;
+        width: 25rem;
+    }
+    
+}
+@media (max-width: 540px ) {
+    
+    .container {
+        height: 28rem;
+        width: 25rem;
+        margin-bottom: 1rem;
+    }
+     h1 {
+        margin-bottom: 2.5rem;
+        font-size: 2.75rem;
+    }
+}
+@media (max-width: 450px ) {
+    
+    .container {
+        height: 35rem;
+        width: 22rem;
+        margin-bottom: 2rem;
+    }
+    h1 {
+        margin-bottom: 3.5rem;
+        font-size: 2.5rem;
+    }
+}
+@media (max-width: 450px ) {
+    
+    h1 {
+        margin-bottom: 2rem;
+    }
+}
+@media (max-width: 400px ) {
+    
+    .container {
+        height: 28rem;
+        width: 20rem;
+        margin-bottom: 1rem;
+    }
+     h1 {
+        margin-bottom: 2rem;
+    }
+}
+@media (max-width: 390px ) {
+    
+    .container {
+        height: 30rem;
+        width: 20rem;
+        margin-bottom: 2rem;
+    }
+    h1 {
+        margin-bottom: 2.5rem;
+    }
+}
+@media (max-width: 375px ) {
+    
+    .container {
+        height: 30rem;
+        width: 20rem;
+        margin-bottom: 0;
+    }
+    h1 {
+        margin-bottom: 0;
+        font-size: 2.1rem;
+    }
+    button {
+        margin-bottom: 1rem;
+    }
+}
+@media (max-width: 350px ) {
+    
+    .container {
+        height: 28rem;
+        width: 18rem;
+        margin-bottom: 1rem;
+    }
+     h1 {
+        margin-bottom: 2rem;
+    }
+}
+@media (max-width: 344px ) {
+    
+     h1 {
+        margin-bottom: 1rem;
+    }
+}
+.input-container {
+    display: flex;
+    justify-content: center;
+    height: 2.7rem;
+    width: 100%;
+    margin-top: 1.5rem;
+    padding: 1rem 0;
+}
+
+.input-container input {
+    height: 100%;
+    width: 75%;
+    padding-left: 1rem;
+    outline: none;
+    border: none;
+    border-radius: 0.5rem 0 0 0.5rem;
+}
+.submit-icon {
+    display: flex;
+    border: 1px solid black;
+    height: 100%;
+    width: 2.5rem;
+    padding: 1px 0;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 0 0.5rem  0.5rem 0;
+    background-color: rgba(247, 247, 247, 0.3);
+}
+.options-container {
+    color: white;
+    width: 100%;
+    height: 2.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.option {
+    cursor: pointer;
+    text-align: center;
+    width: 5.5rem;
+}
+.option.isActive {
+    border-bottom:2px rgb(67, 229, 229) solid ;
+    border-radius: 3px;
+}
+button {
+    color: white;
+    font-size: 1.20rem;
+    margin-top: 2rem;
+    height: 2rem;
+    border: 0.1rem solid rgba(164, 253, 255, 0.7);
+    border-radius: 3rem;
+    background-color: rgba(0, 251, 255,0.7);
+}
+button:hover {
+    cursor: pointer;
+}
