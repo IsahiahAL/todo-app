@@ -3,43 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To Do</title>
+    <title>Document</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+        <div class="hidden"><span id="alert" class="alert">Cannot create empty todo. Please add text content.</span></div>
+    <!-- basic container to hold the form and ul/li's for the todo app -->
+     <div class="container">
+        <!-- form to hold text input and submit (add todo btn) -->
+        <form action="#" id="todo-form">
+            <input type="text" name="todo-input" id="todo-input">
+            <!-- submit button -->
+            <input type="submit" value="add todo">
+        </form>
+        <!-- unordered list(todo list) -->
+         <ul id="todo-list">
+            <!-- todo items. each todo will be an li with an input el and an edit and delete btn -->
+         </ul>
+     </div>
     
-    <h1>To Do</h1>
-    <div class="container">
-        <div class="input-container">
-            <input type="text" placeholder="Add new task...">
-            <div class="submit-icon">+</div>
-        </div>
-        <div class="options-container">
-            <div id="all-tasks" class="option">All Tasks</div>
-            <div id="active" class="option">Active</div>
-            <div id="completed" class="option">Completed</div>
-        </div>
-        <ul>
-            <li><input type="checkbox" name="checkbox" class="checkbox"><span>Project Outline</span></li>
-            <li><input type="checkbox" name="checkbox" class="checkbox"><span>Project Outline</span></li>
-            <li><input type="checkbox" name="checkbox" class="checkbox"><span>Projecffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffdgddfkffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjfffffffffffffffffffffffffffffffffft Outline</span></li>
-            <li><input type="checkbox" name="checkbox" class="checkbox"><span>Project Outline</span></li>
-            <li><input type="checkbox" name="checkbox" class="checkbox"><span>Project Outline</span></li>
-            <li><input type="checkbox" name="checkbox" class="checkbox"><span>Project Outline</span></li>
-            <li><input type="checkbox" name="checkbox" class="checkbox"><span>Project Outline</span></li>
-            <li><input type="checkbox" name="checkbox" class="checkbox"><span>Project Outline</span></li>
-            <li><input type="checkbox" name="checkbox" class="checkbox"><span>Project Outline</span></li>
-            <li><input type="checkbox" name="checkbox" class="checkbox"><span>Project Outline</span></li>
-            <li><input type="checkbox" name="checkbox" class="checkbox"><span>Project Outline</span></li>
-            <li><input type="checkbox" name="checkbox" class="checkbox"><span>Project Outline</span></li>
-            <li><input type="checkbox" name="checkbox" class="checkbox"><span>Project Outline</span></li>
-            <li><input type="checkbox" name="checkbox" class="checkbox"><span>Project Outline</span></li>
-            <li><input type="checkbox" name="checkbox" class="checkbox"><span>Project Outline</span></li>
- 
-        </ul>
-    </div>
-    <button>Clear Completed</button>
-
-    <script src="script.js"></script>
+    <script src="script.js?v1"></script>
 </body>
 </html>
