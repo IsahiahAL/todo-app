@@ -48,7 +48,7 @@ form input[type="text"]{
 
 /* styling todo container */
 
-ul#todo-list {
+ul {
     height: 94%;
     width: 100%;
     margin-top: 2rem;
