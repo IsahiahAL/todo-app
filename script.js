@@ -52,6 +52,7 @@ function addTodo(e){
     e.preventDefault();
     if (TODOINPUT.value.trim() === '') {
         return;
+    }
     const newTodoObj = {
         id: Date.now(),
         text: TODOINPUT.value,
