@@ -1,4 +1,4 @@
-# Vanilla JS To-Do App with Persistence
+# Vanilla JS To-Do App with Persistence                                                                                                                                                                             https://isahiahal.github.io/todo-app/
 
 ## Overview
 A fully functional CRUD (Create, Read, Update, Delete) application built with Vanilla JavaScript. This project demonstrates DOM manipulation, Event Delegation, and State Management without external libraries.
