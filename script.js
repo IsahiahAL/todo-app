@@ -22,7 +22,6 @@ const TODOLIST = document.querySelector('ul');
 
 
 function render(){
-    console.log('rendered');
     TODOLIST.innerHTML = '';
     todoListState.forEach(todo => {
         const li = document.createElement('li');
