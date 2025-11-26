@@ -48,8 +48,8 @@ form input[type="text"]{
 /* Target all buttons to reset the default browser look */
 input[type="submit"],
 button {
-    appearance: none; 
     -webkit-appearance: none;
+    appearance: none; 
     color: white;
     background-color: lightblue;
     border: none;
