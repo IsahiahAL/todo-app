@@ -45,6 +45,34 @@ form input[type="text"]{
     flex-grow: 1;
     margin: 2px;
 }
+/* Target all buttons to reset the default browser look */
+button {
+    appearance: none; 
+    -webkit-appearance: none;
+    
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 4px; /* You decide: 0px for square, 50% for circle */
+}
+
+/* Edit Button */
+.edit,.save {
+    background-color: #ffc107;
+    color: black;
+}
+
+/* Delete Button */
+.delete {
+    background-color: #dc3545; /* Red */
+    color: white;
+}
+
+/* hover effect for desktop */
+button:hover {
+    opacity: 0.8;
+}
 
 /* styling todo container */
 
