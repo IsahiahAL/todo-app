@@ -46,6 +46,7 @@ form input[type="text"]{
     margin: 2px;
 }
 /* Target all buttons to reset the default browser look */
+input[type="submit"],
 button {
     appearance: none; 
     -webkit-appearance: none;
